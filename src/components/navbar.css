@@ -1,0 +1,76 @@
+/* *this class is used to not repeat the same code */
+.container-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* app */
+.App {
+  width: 50%;
+  gap: 65px;
+  justify-content: start;
+}
+
+/* navbar styles */
+
+.App-header {
+  gap: 20px;
+  justify-content: start;
+}
+
+#navbar {
+  margin-top: 20px;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid #00000030;
+  border-radius: 8px;
+  width: 100%;
+}
+
+#navbar-information {
+  gap: 8px;
+  align-items: center;
+}
+
+#information-time {
+  color: #00000080;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-left: 1px solid #00000030;
+  border-right: 1px solid #00000030;
+}
+
+#information-p {
+  background: #d9f9e6;
+  color: #347659;
+  border-radius: 5px;
+  align-items: center;
+  padding: 5px;
+}
+
+img#information-icon {
+  position: relative;
+  left: -6px;
+  width: 30px;
+  border-right: 1px solid #00000030;
+  padding-right: 5px;
+  transform: scale(0.8);
+}
+
+#information-icons {
+  color: #00000080;
+}
+
+#navbar-options {
+  align-items: center;
+  gap: 8px;
+}
+
+#navbar-options > .icon:first-child {
+  color: #00000080;
+}
+
+#navbar-options > .icon:nth-child(2) {
+  color: #43946c;
+}
