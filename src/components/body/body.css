@@ -1,0 +1,98 @@
+
+#title-h1 {
+  width: 100%;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #00000030;
+}
+
+#text-editor {
+  width: 100%;
+  gap: 18px;
+  font-size: 16px;
+  padding-bottom: 200px;
+  justify-content: flex-start;
+}
+
+#text {
+  width: 100%;
+  gap: 8px;
+}
+
+#text > p {
+  word-wrap: break-word;
+  width: 100%;
+}
+
+#input-editor {
+  padding-top: 8px;
+  font-size: 16px;
+  word-wrap: break-word;
+  height: auto;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: vertical;
+}
+
+#input-editor.header1 {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+#add-block {
+  display: none;
+}
+
+/* icon  */
+#add-block.active {
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #00000080;
+}
+
+.add-block-title {
+  width: 100%;
+  font-weight: 900;
+}
+
+.add-block-description {
+  width: 100%;
+  color: #00000080;
+}
+
+.add-block-ul > li {
+  list-style: none;
+  width: 100%;
+  gap: 8px;
+  align-items: center;
+}
+
+.headers-icon {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.li-information-title {
+  width: 100%;
+  font-weight: 700;
+}
+
+.li-information-shortcut {
+  color: #00000080;
+}
+
+.add-block-li-information {
+  width: 90%;
+  justify-content: start;
+}
+
+.heading1 {
+  font-size: 1.8em;
+  width: 100%;
+  text-align: start;
+}
